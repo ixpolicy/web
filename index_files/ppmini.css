@@ -1,0 +1,911 @@
+/**
+* Patch Pilot Mini CSS
+* Version: 1.0
+* Author: Synamic Technologies
+*/
+
+/* re-style cookie warning banner */
+#hs-eu-cookie-confirmation{
+    position:fixed!important;
+    /* max-width:400px!important; */
+    margin-left:0%!important;
+    bottom:0;
+    background-color:#007bff!important;
+    top: auto !important;
+    background-image:none!important;
+    font-family: "D-DIN", sans-serif!important;
+}
+
+
+#hs-eu-confirmation-button {
+    background-color: #001092;
+}
+
+#hs-eu-policy-wording{
+
+    text-shadow:none!important;
+    font-family: "D-DIN", sans-serif!important;
+
+}
+
+
+/* Custom fonts */
+@font-face {
+    font-family: 'D-DIN';
+    src: url('fonts/d-din/D-DIN.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'D-DIN-Condensed';
+    src: url('fonts/d-din/D-DINCondensed.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'D-DIN';
+    src: url('fonts/d-din/D-DIN-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'D-DIN-Condensed';
+    src: url('fonts/d-din/D-DINCondensed-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'D-DIN';
+    src: url('fonts/d-din/D-DIN-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+
+/* Custom colors */
+/**
+primary color:
+secondary color:
+tertiary color:
+quaternary color:
+button primary color:
+button secondary color:
+pp red color:
+pp green color:
+pp darkblue color: rgb 34 0 130 #001092
+pp lightblue color: rgb 52 96 247 #007bff
+pp grey color: 143 143 143 #ededed
+pp grey color: 165 165 165
+pp grey color: 239 239 239
+ */
+
+.color-primary {
+    color: #001092;
+}
+
+.background-color-primary {
+    background-color: #001092;
+}
+
+.color-secondary {
+    color: #007bff;
+}
+
+.background-color-secondary {
+    background-color: #007bff;
+}
+
+.btn-secondary, .btn-secondary:active, .btn-secondary:focus {
+    background-color: #007bff !important;
+    color: #FFFFFF !important;
+    border-color: #007bff !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.btn-secondary:hover {
+    background-color: #FFFFFF !important;
+    color: #007bff !important;
+    border-color: #007bff !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+
+/* General */
+body {
+    font-family: "D-DIN", sans-serif;
+    color: black;
+    font-size: 1.2em;
+}
+
+a {
+    color: #001092;
+}
+
+a:hover {
+    color: #007bff;
+}
+
+
+h1, h2, h3, h4, h5 {
+    color: #001092;
+    font-family: "D-DIN-Condensed", sans-serif;
+}
+
+h1 {
+    font-size: 48px;
+    line-height: 56px;
+    margin-bottom: 10px;
+}
+
+section h2 {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+h2 {
+    text-align: left;
+    font-weight: bold;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+ul {
+    list-style: none
+}
+
+/* Header */
+#header {
+    height: 68px;
+    transition: all 0.5s;
+    z-index: 997;
+    background: #fff;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+header #logo {
+    padding: 0;
+    margin: 0;
+    max-height: 40px;
+}
+
+#header .nav-link:hover {
+    color: #007bff;
+    text-decoration: none;
+}
+
+li.nav-item.active a {
+    color: #007bff;
+    /**border-bottom: 2px solid #001092;*/
+}
+
+/* circle to hightlight numbers */
+.circle {
+    background: #dc3545;
+    border-radius: 128px;
+    color: white;
+    height: 128px;
+    font-weight: bold;
+    width: 128px;
+    display: table;
+    margin: 15px auto;
+}
+
+.circle p {
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.block {
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+/** Hero */
+#hero h2 {
+    text-align: left;
+    font-size: 1.5rem;
+}
+
+#hero {
+    width: 100%;
+    padding: 110px 0 100px 0;
+    background-color: #ededed;
+}
+
+#hero .download-btn {
+    font-weight: 500;
+    font-size: 15px;
+    display: inline-block;
+    padding: 8px 24px 10px 46px;
+    border-radius: 3px;
+    transition: 0.5s;
+    color: #fff;
+    background: #007bff;
+    position: relative;
+}
+
+#hero .download-btn:hover {
+    text-decoration: none;
+    background: #001092;
+}
+
+#hero .download-btn i {
+    font-size: 20px;
+    position: absolute;
+    left: 18px;
+    top: 8.5px;
+
+}
+
+/** Panel */
+
+#panel {
+    height: 180px;
+    background-image: url(../img/whos-next.png);
+    background-repeat: no-repeat;
+    background-position: center top -60px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    opacity: 0.15;
+}
+
+/** Intro */
+#intro {
+    padding-top: 4.5rem;
+}
+
+#intro ul {
+    list-style-type: square;
+    padding-left: 16px;
+}
+
+#intro li {
+}
+
+#intro li::before {
+    color: #001092;
+}
+
+.ppmini-description {
+    font-size: 1.3em;
+}
+
+
+/** Download */
+
+section {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.download {
+    width: 240px;
+    height: 75px;
+    background: #007bff;
+    border-radius: 5px;
+    position: relative;
+    color: white;
+    cursor: pointer;
+    border: 1px solid #007bff;
+    margin-top: 1.5rem;
+}
+
+.download:hover {
+    color: #007bff;
+    background: white;
+    border: 1px solid #007bff;
+}
+
+.download > .fab {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
+}
+
+.download:hover .fab {
+    color: #007bff;
+}
+
+.download > .download-button-text {
+    position: absolute;
+    left: 75px;
+    top: 15px;
+    font-size: 0.8em;
+}
+
+#system-requirements {
+    font-size: 0.8em;
+    margin-top: 1.5em;
+}
+
+.os-compatible {
+    width: 220px;
+    font-size: 0.8em;
+    color: #585858;
+}
+
+/** Four steps */
+#four-steps i {
+    font-size: 3em;
+    margin-bottom: 0.2em;
+    color: #007bff;
+}
+
+.four-steps-heading, .four-steps-icon, .four-steps-heading h4 {
+    text-align: center;
+    color: #007bff;
+}
+
+.steps {
+    margin-top: 1em;
+}
+
+#why-patch-pilot h4 {
+    color: #007bff;
+}
+
+/** FAQ */
+.accordion .card-header:after {
+    font-family: 'Font Awesome 5 Free';
+    content: '\f005';
+    float: right;
+    font-weight: 900;
+}
+
+.accordion .card-header.collapsed:after {
+    /* symbol for "collapsed" panels */
+    content: "\f067";
+}
+
+.faq-list {
+    font-size: 1rem;
+}
+
+.faq-list .card {
+    border: none;
+}
+
+.faq-list .card-header {
+    background-color: transparent;
+    border: none;
+}
+
+.faq-list .card-body {
+    padding-left: 2.1rem;
+    padding-right: 1.25rem;
+    padding-top: 0px;
+}
+
+.faq-header {
+    font-size: 27px;
+    margin: 20px;
+}
+
+#faq [data-toggle="collapse"] .fa:before {
+    content: "\f078";
+}
+
+#faq [data-toggle="collapse"].collapsed .fa:before {
+    content: "\f054";
+}
+
+#faq .btn-link:hover, .btn-link, .btn-link:focus {
+    text-decoration: none;
+}
+
+#faq .card {
+    background-color: transparent;
+}
+
+#faq h5 button {
+    text-align: left;
+}
+
+
+/** Particles spacer */
+#particles-spacer {
+    height: 100px;
+    background-color: #3a83c5;
+}
+
+/** Report */
+
+.report section p {
+    font-size: 1.1rem;
+}
+
+@media print {
+    section p {
+        font-size: 1rem;
+    }
+
+    .print-page-break-after {
+        page-break-after: always;
+    }
+
+    .print-page-break-before {
+        page-break-before: always;
+    }
+}
+
+#report-header {
+    background: rgba(237, 237, 237, 0.4);
+    color: #001092 !important;
+}
+
+.report hr {
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+
+#report-recommendations .row {
+    padding-bottom: 30px;
+}
+
+.report h3 {
+    font-size: 1.5rem;
+}
+
+.report h1, h2 {
+    font-weight: bold;
+}
+
+.report h2 {
+    border-left: 8px solid #001092;
+    padding-left: 10px;
+    text-align: left
+}
+
+.report-summary-block {
+    border: 1px solid #e0e0e0;
+    -webkit-box-shadow: 2px 2px 4px 2px rgba(163, 163, 163, 0.74);
+    -moz-box-shadow: 2px 2px 4px 2px rgba(163, 163, 163, 0.74);
+    box-shadow: 2px 2px 4px 2px rgba(163, 163, 163, 0.74);
+    width: 330px;
+    position: relative;
+    height: 185px;
+    margin-bottom: 20px
+}
+
+.report-summary-block-heading, .report-summary-block-body {
+    margin-left: 20px;
+    margin-right: 10px;
+    padding-top: 10px;
+    padding-right: 80px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+.report-summary-block-body, .report-summary-block-body p {
+    font-size: 16px;
+    color: #666;
+}
+
+.report-summary-block-body ul {
+    list-style: square;
+    padding-left: 15px
+}
+
+.report-summary-block-image {
+    float: right;
+    bottom: -20px;
+    left: -10px;
+    position: relative;
+    z-index: 2;
+    margin: auto;
+    width: 35px;
+}
+
+.report-summary-icons > div {
+    text-align: center;
+}
+
+.box > .icon {
+    text-align: center;
+    position: relative;
+
+}
+
+.box > .icon > .image {
+    float: left;
+    top: 35px;
+    left: 10px;
+    position: relative;
+    z-index: 2;
+    margin: auto;
+    width: 88px;
+    height: 88px;
+    line-height: 88px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+.box > .icon > .info {
+    text-align: left;
+    border: 1px solid #e0e0e0;
+    padding: 10px 0 10px 85px;
+    -webkit-box-shadow: 2px 2px 4px 2px rgba(163, 163, 163, 0.74);
+    -moz-box-shadow: 2px 2px 4px 2px rgba(163, 163, 163, 0.74);
+    box-shadow: 2px 2px 4px 2px rgba(163, 163, 163, 0.74);
+    height: 285px;
+}
+
+@media (max-width: 991.98px) {
+    .box > .icon > .info {
+        height: 400px;
+    }
+}
+@media (max-width: 1199.98px) {
+    .box > .icon > .info {
+        height: 325px;
+    }
+}
+
+@media print {
+    .report-recommendations tr {
+        display: table-row !important;
+    }
+    .report-recommendations .recommendation-details-toggle i {
+        display: none !important;
+    }
+}
+
+.box > .icon > .info > p {
+    font-size: 1rem;
+    color: #666;
+    margin: 20px;
+    line-height: 1.5em;
+}
+
+.box h3 {
+    font-size: 1.5rem;
+    margin-left: 20px;
+}
+
+.box > .icon > .info > .more a {
+    font-size: 1rem;
+    color: #001092;
+    line-height: 12px;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.box .space {
+    height: 30px;
+}
+
+.explanations {
+    font-size: 1rem;
+    color: #666;
+    margin: 20px;
+    line-height: 1.5em;
+}
+
+.explanations ul {
+    list-style-type: square;
+}
+
+.explanations span {
+    margin-left: 20px;
+}
+
+.recommendation-details-toggle {
+    color: #001092;
+}
+
+.recommendation-filter.active {
+    font-weight: bold;
+}
+
+.report-recommendations table {
+    table-layout: fixed;
+}
+.report-recommendations {
+    margin-bottom: 250px;
+}
+
+.form-overlay {
+    position: fixed;
+    z-index: 1000;
+    pointer-events: none;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.form-overlay-background {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    pointer-events: auto;
+    -webkit-tap-highlight-color: transparent;
+    transition: opacity .4s cubic-bezier(.25, .8, .25, 1);
+}
+
+.form-overlay-background-blur {
+    opacity: .95;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    background: #666;
+}
+
+.panel {
+    z-index: 10;
+    background: rgb(238, 238, 238);
+    top: 50px;
+    left: 0;
+    margin: auto;
+    padding: 20px;
+    z-index: 100;
+    border-width: 0px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border-color: rgb(0, 0, 0);
+    font-size: 15px;
+    width: 430px;
+    text-align: left;
+    position: fixed;
+    right: 0;
+}
+
+.form-signin {
+    width: 100%;
+    max-width: 420px;
+    padding: 15px;
+    margin: auto;
+}
+
+.form-label-group {
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+.form-label-group > input,
+.form-label-group > label {
+    height: 3.125rem;
+    padding: .75rem;
+}
+
+.form-label-group > label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    margin-bottom: 0; /* Override default `<label>` margin */
+    line-height: 1.5;
+    color: #495057;
+    pointer-events: none;
+    cursor: text; /* Match the input under the label */
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    transition: all .1s ease-in-out;
+}
+
+.form-label-group input::-webkit-input-placeholder {
+    color: transparent;
+}
+
+.form-label-group input:-ms-input-placeholder {
+    color: transparent;
+}
+
+.form-label-group input::-ms-input-placeholder {
+    color: transparent;
+}
+
+.form-label-group input::-moz-placeholder {
+    color: transparent;
+}
+
+.form-label-group input::placeholder {
+    color: transparent;
+}
+
+.form-label-group input:not(:placeholder-shown) {
+    padding-top: 1.25rem;
+    padding-bottom: .25rem;
+}
+
+.form-label-group input:not(:placeholder-shown) ~ label {
+    padding-top: .25rem;
+    padding-bottom: .25rem;
+    font-size: 12px;
+    color: #777;
+}
+
+.ppmini-risk-box {
+    border: 1px solid black;
+}
+
+
+
+/* Fallback for Edge
+-------------------------------------------------- */
+@supports (-ms-ime-align: auto) {
+    .form-label-group > label {
+        display: none;
+    }
+
+    .form-label-group input::-ms-input-placeholder {
+        color: #777;
+    }
+}
+
+/* Fallback for IE
+-------------------------------------------------- */
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    .form-label-group > label {
+        display: none;
+    }
+
+    .form-label-group input:-ms-input-placeholder {
+        color: #777;
+    }
+}
+
+/** Footer */
+#footer {
+    font-size: 1.1rem;
+    padding-top: 1rem;
+    background-color: #ededed;
+    color: #001092;
+}
+
+#footer ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+#footer .hr-before-after {
+    margin-top: 2rem;
+    padding-top: 2rem;
+    border-top: 1px solid #b2b2b2;
+    border-bottom: 1px solid #b2b2b2;
+}
+
+.footer-contact, .footer-newsletter {
+    color: #000000;
+}
+
+.footer-contact img {
+    margin-left: -15px;
+}
+
+.copyright {
+    padding-top: 0.7rem;
+    padding-bottom: 0.8rem;
+}
+
+.twitter, .linkedin, .facebook, .xing {
+    padding-left: 0.5em;
+}
+
+.twitter:hover, .linkedin:hover, .facebook:hover, .xing:hover {
+    color: #007bff;
+}
+
+
+/* Go to top button */
+.go-to-top {
+    position: fixed;
+    display: none;
+    right: 25px;
+    bottom: 25px;
+    z-index: 99999;
+}
+
+.go-to-top:hover {
+    text-decoration: none;
+}
+
+.go-to-top i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+    background: #007bff;
+    color: #fff;
+    transition: all 0.4s;
+}
+
+.go-to-top i:hover {
+    background: #fff;
+    color: #007bff;
+    border: 1px solid #007bff;
+}
+
+/** Feedback modal **/
+#rate1 {
+    font-size: 30px;
+    margin: 0 auto;
+    color: #001092;
+}
+
+.form-feedback-rating-wrapper {
+    margin-bottom: 1.7rem;
+}
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 576px) {
+    #hero {
+        padding: 60px 0 60px 0;
+    }
+
+    .ppmini-description {
+        font-size: 1.4rem;
+    }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 768px) {
+    #hero h1 {
+        font-size: 28px;
+        line-height: 36px;
+        text-align: center;
+    }
+
+    #hero h2 {
+        font-size: 24px;
+        line-height: 24px;
+        margin-top: 10px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .hero-download-btns {
+        text-align: center;
+    }
+
+    #footer .hr-before-after {
+        margin-bottom: 2rem;
+        padding-bottom: 2rem;
+    }
+
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+    .footer-newsletter {
+        margin-top: 2em;
+    }
+
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+
+}
+
+/* Extra large devices (large desktops)
+/* No media query since the extra-large breakpoint has no upper bound on its width
+*/
+
