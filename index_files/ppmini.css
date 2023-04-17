@@ -18,7 +18,7 @@
 
 
 #hs-eu-confirmation-button {
-    background-color: #001092;
+    background-color: #000066;
 }
 
 #hs-eu-policy-wording{
@@ -85,11 +85,11 @@ pp grey color: 239 239 239
  */
 
 .color-primary {
-    color: #001092;
+    color: #000066;
 }
 
 .background-color-primary {
-    background-color: #001092;
+    background-color: #000066;
 }
 
 .color-secondary {
@@ -125,7 +125,7 @@ body {
 }
 
 a {
-    color: #001092;
+    color: #000066;
 }
 
 a:hover {
@@ -134,7 +134,7 @@ a:hover {
 
 
 h1, h2, h3, h4, h5 {
-    color: #001092;
+    color: #000066;
     font-family: "D-DIN-Condensed", sans-serif;
 }
 
@@ -235,7 +235,7 @@ li.nav-item.active a {
 
 #hero .download-btn:hover {
     text-decoration: none;
-    background: #001092;
+    background: #000066;
 }
 
 #hero .download-btn i {
@@ -274,7 +274,7 @@ li.nav-item.active a {
 }
 
 #intro li::before {
-    color: #001092;
+    color: #000066;
 }
 
 .ppmini-description {
@@ -443,7 +443,7 @@ section {
 
 #report-header {
     background: rgba(237, 237, 237, 0.4);
-    color: #001092 !important;
+    color: #000066 !important;
 }
 
 .report hr {
@@ -464,7 +464,7 @@ section {
 }
 
 .report h2 {
-    border-left: 8px solid #001092;
+    border-left: 8px solid #000066;
     padding-left: 10px;
     text-align: left
 }
@@ -577,7 +577,7 @@ section {
 
 .box > .icon > .info > .more a {
     font-size: 1rem;
-    color: #001092;
+    color: #000066;
     line-height: 12px;
     text-decoration: none;
     margin-left: 20px;
@@ -603,7 +603,7 @@ section {
 }
 
 .recommendation-details-toggle {
-    color: #001092;
+    color: #000066;
 }
 
 .recommendation-filter.active {
@@ -773,7 +773,7 @@ section {
     font-size: 1.1rem;
     padding-top: 1rem;
     background-color: #ededed;
-    color: #001092;
+    color: #000066;
 }
 
 #footer ul {
@@ -846,7 +846,7 @@ section {
 #rate1 {
     font-size: 30px;
     margin: 0 auto;
-    color: #001092;
+    color: #000066;
 }
 
 .form-feedback-rating-wrapper {
